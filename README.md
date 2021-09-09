@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Spotify Clone
+<!-- * [Deployed MTG Social](https://socialist-loonie-29332.herokuapp.com/) -->
+## About
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Spotify Clone built with React Front End
+* Backend functionality for user login complete
+* Currently adding ability to play music, save artists and playlists. 
 
-## Available Scripts
+<!-- ![Home](https://github.com/rjhelm/mtg-social/blob/main/assets/homepage.PNG?raw=true)
+![Login](https://github.com/rjhelm/mtg-social/blob/main/assets/login.PNG?raw=true)
+![Dark Mode](https://github.com/rjhelm/mtg-social/blob/main/assets/dark-mode.PNG?raw=true)
+![Logged In](https://github.com/rjhelm/mtg-social/blob/main/assets/logged-in.PNG?raw=true) -->
 
-In the project directory, you can run:
+## Table of contents
 
-### `npm start`
+> * [spotify-clone](#spotify-clone)
+>   * [About](#about)
+>   * [Table of contents](#table-of-contents)
+>   * [Usage](#usage)
+>     * [Features](#features)
+>     * [Content](#content)
+>     * [Build ()](#build)
+>   * [Resources ()](#resources)
+>   * [Contributing / Reporting issues](#contributing--reporting-issues)
+>   * [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+npm i && cd client npm i
 
-### `npm test`
+npm start (development server)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Features
 
-### `npm run build`
+head to graphql playground for queries </ br>
+react front-end make changes with app running
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Content
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* MERN Stack
+* MongoDB with mongoose
+* GraphQL typeDefs and Resolvers
+* React Front End
+* Express Server wih Apollo for GraphQL
+* Material UI for icons and styles
+* JWT for authencticating users
+* bcrpyt for password hashing
+* .env to store sensitive data
+* faker used to seed fake data in development
+* heroku for deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Build
 
-### `npm run eject`
+    npm run build
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Deploy (how to install build product)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git push heroku (master/main)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* This will run the deployment to heroku by setting up a node engine for the backend before cd into client for the React front end.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Resources (Documentation and other links)
 
-## Learn More
+see github repository [rjhelm](https://github.com/rjhelm/spotify-clone)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing / Reporting issues
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [Link to project issues](https://github.com/rjhelm/spotify-clone/issues)
